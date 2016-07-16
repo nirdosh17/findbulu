@@ -3,7 +3,7 @@ class ChildrenController < ApplicationController
 
   # GET /children
   # GET /children.json
-  def index    
+  def index        
     @children = Child.all
   end
 
